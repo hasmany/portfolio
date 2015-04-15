@@ -39,7 +39,7 @@ h6 {
 
 hr.star-light,
 hr.star-primary {
-    margin: 25px auto 30px;
+    margin: 10px auto 32px;
     padding: 0;
     max-width: 250px;
     border: 0;
@@ -93,7 +93,7 @@ header .container {
 
 header img {
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 10px;
 }
 
 header .intro-text .name {
@@ -111,12 +111,12 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 100px;
+        padding-bottom: 30px;
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 3.5em;
     }
 
     header .intro-text .skills {
@@ -126,7 +126,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+       /* padding: 25px 0;*/
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -152,6 +152,7 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    height: 80px;
 }
 
 .navbar a:focus {
@@ -172,7 +173,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 30px 0;
 }
 
 section h2 {
@@ -448,4 +449,11 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+
+/*###########*/
+
+.main-img {
+    width: 40%;
 }
