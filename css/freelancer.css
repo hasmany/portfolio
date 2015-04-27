@@ -208,6 +208,11 @@ section.success {
     max-width: 400px;
 }
 
+.portfolio-info {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 #portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;
@@ -245,6 +250,10 @@ section.success {
 
 #portfolio * {
     z-index: 2;
+}
+
+.portfolio-item {
+    text-align: center;
 }
 
 @media(min-width:767px) {
