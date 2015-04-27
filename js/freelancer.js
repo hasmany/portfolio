@@ -35,3 +35,19 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$(".portfolio-item img").on('mouseover',function(){
+    $(this).closest('.portfolio-item').animate({
+        top: "-15px"
+    })
+
+
+});
+
+$(".portfolio-item img").on('mouseleave',function(){
+    $(this).closest('.portfolio-item').animate({
+        top: "15px"
+    })
+
+
+});
