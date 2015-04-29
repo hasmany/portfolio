@@ -186,6 +186,15 @@ section.success {
     background: #18bc9c;
 }
 
+#about p {
+    font-size: 27px;
+}
+
+#about .container {
+    width: 90%;
+    max-width: 900px;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -460,7 +469,6 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
-
 
 /*###########*/
 
