@@ -36,16 +36,16 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-$(".portfolio-item img").on('mouseover',function(){
-    $(this).closest('.portfolio-item').animate({
+$(".portfolio-item").on('mouseover',function(){
+    $(this).animate({
         top: "-15px"
     })
 
 
 });
 
-$(".portfolio-item img").on('mouseleave',function(){
-    $(this).closest('.portfolio-item').animate({
+$(".portfolio-item").on('mouseleave',function(){
+    $(this).animate({
         top: "15px"
     })
 

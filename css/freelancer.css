@@ -209,6 +209,7 @@ section.success {
 }
 
 .portfolio-info {
+    color: #333;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -467,9 +468,11 @@ footer .footer-below {
     width: 40%;
 }
 
-
 #portfolio img {
-  width: 75%;
+  width: 95%;
 }
 
+#portfolio h4 {
+    color: #2c3e50;
+}
 
